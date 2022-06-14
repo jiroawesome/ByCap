@@ -11,9 +11,9 @@ url = 'https://www.google.com/recaptcha/api2/demo'
 
 client = AnticaptchaClient(api_key)
 task = NoCaptchaTaskProxylessTask(url, site_key)
-job = client.createTask(task)
-job.join()
-print job.get_solution_response()
+ff = client.createTask(task)
+ff.join()
+print ff.get_solution_response()
 ```
 
 
