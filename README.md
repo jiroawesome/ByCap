@@ -23,7 +23,3 @@ print(ff.get_solution_response())
 
 ## API Key
 - Get your API Key on [anti-captcha.com](https://anti-captcha.com/).
-
-
-## Note
-- This library is made for python developers.
