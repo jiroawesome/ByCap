@@ -18,7 +18,7 @@ client = AnticaptchaClient(api_key)
 task = NoCaptchaTaskProxylessTask(url, site_key)
 ff = client.createTask(task)
 ff.join()
-print ff.get_solution_response()
+print(ff.get_solution_response())
 ```
 
 ## API Key
